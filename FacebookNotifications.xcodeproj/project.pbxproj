@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4247619719AF7FB100D6ABE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247619619AF7FB100D6ABE8 /* main.m */; };
+		4247619A19AF7FB100D6ABE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247619919AF7FB100D6ABE8 /* AppDelegate.m */; };
+		4247619D19AF7FB100D6ABE8 /* FacebookNotifications.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4247619B19AF7FB100D6ABE8 /* FacebookNotifications.xcdatamodeld */; };
+		424761A019AF7FB100D6ABE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247619F19AF7FB100D6ABE8 /* ViewController.m */; };
+		424761A319AF7FB100D6ABE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 424761A119AF7FB100D6ABE8 /* Main.storyboard */; };
+		424761A519AF7FB100D6ABE8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 424761A419AF7FB100D6ABE8 /* Images.xcassets */; };
+		424761B119AF7FB100D6ABE8 /* FacebookNotificationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 424761B019AF7FB100D6ABE8 /* FacebookNotificationsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		424761AB19AF7FB100D6ABE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4247618919AF7FB100D6ABE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4247619019AF7FB100D6ABE8;
+			remoteInfo = FacebookNotifications;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4247619119AF7FB100D6ABE8 /* FacebookNotifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookNotifications.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4247619519AF7FB100D6ABE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4247619619AF7FB100D6ABE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4247619819AF7FB100D6ABE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4247619919AF7FB100D6ABE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4247619C19AF7FB100D6ABE8 /* FacebookNotifications.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FacebookNotifications.xcdatamodel; sourceTree = "<group>"; };
+		4247619E19AF7FB100D6ABE8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4247619F19AF7FB100D6ABE8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		424761A219AF7FB100D6ABE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		424761A419AF7FB100D6ABE8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		424761AA19AF7FB100D6ABE8 /* FacebookNotificationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookNotificationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		424761AF19AF7FB100D6ABE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		424761B019AF7FB100D6ABE8 /* FacebookNotificationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacebookNotificationsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4247618E19AF7FB100D6ABE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		424761A719AF7FB100D6ABE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4247618819AF7FB100D6ABE8 = {
+			isa = PBXGroup;
+			children = (
+				4247619319AF7FB100D6ABE8 /* FacebookNotifications */,
+				424761AD19AF7FB100D6ABE8 /* FacebookNotificationsTests */,
+				4247619219AF7FB100D6ABE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4247619219AF7FB100D6ABE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4247619119AF7FB100D6ABE8 /* FacebookNotifications.app */,
+				424761AA19AF7FB100D6ABE8 /* FacebookNotificationsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4247619319AF7FB100D6ABE8 /* FacebookNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				4247619819AF7FB100D6ABE8 /* AppDelegate.h */,
+				4247619919AF7FB100D6ABE8 /* AppDelegate.m */,
+				4247619E19AF7FB100D6ABE8 /* ViewController.h */,
+				4247619F19AF7FB100D6ABE8 /* ViewController.m */,
+				424761A119AF7FB100D6ABE8 /* Main.storyboard */,
+				424761A419AF7FB100D6ABE8 /* Images.xcassets */,
+				4247619B19AF7FB100D6ABE8 /* FacebookNotifications.xcdatamodeld */,
+				4247619419AF7FB100D6ABE8 /* Supporting Files */,
+			);
+			path = FacebookNotifications;
+			sourceTree = "<group>";
+		};
+		4247619419AF7FB100D6ABE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4247619519AF7FB100D6ABE8 /* Info.plist */,
+				4247619619AF7FB100D6ABE8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		424761AD19AF7FB100D6ABE8 /* FacebookNotificationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				424761B019AF7FB100D6ABE8 /* FacebookNotificationsTests.m */,
+				424761AE19AF7FB100D6ABE8 /* Supporting Files */,
+			);
+			path = FacebookNotificationsTests;
+			sourceTree = "<group>";
+		};
+		424761AE19AF7FB100D6ABE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				424761AF19AF7FB100D6ABE8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4247619019AF7FB100D6ABE8 /* FacebookNotifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 424761B419AF7FB100D6ABE8 /* Build configuration list for PBXNativeTarget "FacebookNotifications" */;
+			buildPhases = (
+				4247618D19AF7FB100D6ABE8 /* Sources */,
+				4247618E19AF7FB100D6ABE8 /* Frameworks */,
+				4247618F19AF7FB100D6ABE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacebookNotifications;
+			productName = FacebookNotifications;
+			productReference = 4247619119AF7FB100D6ABE8 /* FacebookNotifications.app */;
+			productType = "com.apple.product-type.application";
+		};
+		424761A919AF7FB100D6ABE8 /* FacebookNotificationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 424761B719AF7FB100D6ABE8 /* Build configuration list for PBXNativeTarget "FacebookNotificationsTests" */;
+			buildPhases = (
+				424761A619AF7FB100D6ABE8 /* Sources */,
+				424761A719AF7FB100D6ABE8 /* Frameworks */,
+				424761A819AF7FB100D6ABE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				424761AC19AF7FB100D6ABE8 /* PBXTargetDependency */,
+			);
+			name = FacebookNotificationsTests;
+			productName = FacebookNotificationsTests;
+			productReference = 424761AA19AF7FB100D6ABE8 /* FacebookNotificationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4247618919AF7FB100D6ABE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Pivotal Labs";
+				TargetAttributes = {
+					4247619019AF7FB100D6ABE8 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					424761A919AF7FB100D6ABE8 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 4247619019AF7FB100D6ABE8;
+					};
+				};
+			};
+			buildConfigurationList = 4247618C19AF7FB100D6ABE8 /* Build configuration list for PBXProject "FacebookNotifications" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4247618819AF7FB100D6ABE8;
+			productRefGroup = 4247619219AF7FB100D6ABE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4247619019AF7FB100D6ABE8 /* FacebookNotifications */,
+				424761A919AF7FB100D6ABE8 /* FacebookNotificationsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4247618F19AF7FB100D6ABE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				424761A319AF7FB100D6ABE8 /* Main.storyboard in Resources */,
+				424761A519AF7FB100D6ABE8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		424761A819AF7FB100D6ABE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4247618D19AF7FB100D6ABE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4247619A19AF7FB100D6ABE8 /* AppDelegate.m in Sources */,
+				4247619719AF7FB100D6ABE8 /* main.m in Sources */,
+				424761A019AF7FB100D6ABE8 /* ViewController.m in Sources */,
+				4247619D19AF7FB100D6ABE8 /* FacebookNotifications.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		424761A619AF7FB100D6ABE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				424761B119AF7FB100D6ABE8 /* FacebookNotificationsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		424761AC19AF7FB100D6ABE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4247619019AF7FB100D6ABE8 /* FacebookNotifications */;
+			targetProxy = 424761AB19AF7FB100D6ABE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		424761A119AF7FB100D6ABE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				424761A219AF7FB100D6ABE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		424761B219AF7FB100D6ABE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		424761B319AF7FB100D6ABE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		424761B519AF7FB100D6ABE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FacebookNotifications/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		424761B619AF7FB100D6ABE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FacebookNotifications/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		424761B819AF7FB100D6ABE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FacebookNotificationsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookNotifications.app/FacebookNotifications";
+			};
+			name = Debug;
+		};
+		424761B919AF7FB100D6ABE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FacebookNotificationsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookNotifications.app/FacebookNotifications";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4247618C19AF7FB100D6ABE8 /* Build configuration list for PBXProject "FacebookNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				424761B219AF7FB100D6ABE8 /* Debug */,
+				424761B319AF7FB100D6ABE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		424761B419AF7FB100D6ABE8 /* Build configuration list for PBXNativeTarget "FacebookNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				424761B519AF7FB100D6ABE8 /* Debug */,
+				424761B619AF7FB100D6ABE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		424761B719AF7FB100D6ABE8 /* Build configuration list for PBXNativeTarget "FacebookNotificationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				424761B819AF7FB100D6ABE8 /* Debug */,
+				424761B919AF7FB100D6ABE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4247619B19AF7FB100D6ABE8 /* FacebookNotifications.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4247619C19AF7FB100D6ABE8 /* FacebookNotifications.xcdatamodel */,
+			);
+			currentVersion = 4247619C19AF7FB100D6ABE8 /* FacebookNotifications.xcdatamodel */;
+			path = FacebookNotifications.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4247618919AF7FB100D6ABE8 /* Project object */;
+}

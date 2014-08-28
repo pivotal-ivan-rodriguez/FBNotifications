@@ -1,4 +1,4 @@
 FBNotifications
 ===============
 
-Facebook Notifications Widget
+iOS 8 - Facebook Notifications Widget

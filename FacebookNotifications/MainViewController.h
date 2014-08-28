@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MainView.h"
 
-@interface ViewController : UIViewController
+@interface MainViewController : UIViewController
 
+@property (nonatomic, strong) MainView *view;
 
 @end
 
